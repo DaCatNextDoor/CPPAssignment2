@@ -1,3 +1,0 @@
-C:/Users/racha/Documents/CPP/CPPAssignment2/out/build/x64-Debug/CMakeFiles/FakeYoutube.dir
-C:/Users/racha/Documents/CPP/CPPAssignment2/out/build/x64-Debug/CMakeFiles/edit_cache.dir
-C:/Users/racha/Documents/CPP/CPPAssignment2/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
