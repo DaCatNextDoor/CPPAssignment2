@@ -8,8 +8,9 @@
   "ExpandedNodes": [
     "",
     "\\out",
-    "\\src"
+    "\\src",
+    "\\ytdata"
   ],
-  "SelectedNode": "\\main.cpp",
+  "SelectedNode": "\\src\\Application.cpp",
   "PreviewInSolutionExplorer": false
 }

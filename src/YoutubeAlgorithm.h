@@ -7,6 +7,6 @@ public:
 	~YoutubeAlgorithm();
 
 private:
-	Moving_Average movAvg;
+	DefaultMovingAverage movAvg;
 
 }
