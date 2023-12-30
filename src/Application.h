@@ -1,4 +1,13 @@
 #include "YoutubeAlgorithm.h"
+#include "User.h"
+#include "Creator.h"
+
+enum class currentPerson
+{
+	USER,
+	CREATOR,
+	ERROR
+};
 
 class Application
 {
@@ -12,6 +21,6 @@ public:
 	void cleanup(); // after the main application is run, free any pointers we used in this class. 
 
 private:
-	//User** mpp_users; //Just as an example preferably you are using std::vector<User> which means the "cleanup()" func is not needed
+	currentPerson cp;
 	YoutubeAlgorithm* mp_yalgo; // This is not a pointer so we don't need to free it in cleanup
 };

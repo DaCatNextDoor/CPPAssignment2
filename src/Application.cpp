@@ -1,3 +1,5 @@
+
+
 #include "Application.h"#
 #//usign: fix this for moving average later
 

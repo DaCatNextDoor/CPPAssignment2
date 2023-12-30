@@ -9,13 +9,24 @@
 #include <vector>
 #include <map>
 #include <stdexcept>
+#include <typeinfo>
 #include "Person.h"
 
-using namespace std;
-
-class NoScoreException: public exception
+class NoScoreException : public exception
 {
+public:
+
+	NoScoreException(const string& message) 
+					: exception(message.c_str()) 
+					{}
+
+	// This is a mouthful
+	virtual const char* what() const noexcept override
+	{
+		return "You attempted to call score on a Creator when they have no score.";
+	}
 };
+
 
 class Creator: public Person
 {   public:
